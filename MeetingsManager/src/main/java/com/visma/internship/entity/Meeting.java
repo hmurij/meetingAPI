@@ -5,8 +5,7 @@ import java.util.List;
 
 public class Meeting {
 
-//	private int id;
-	// TODO: meeting id
+
 	private String name;
 	private String responsiblePerson;
 	private String description;
@@ -21,7 +20,6 @@ public class Meeting {
 
 	public Meeting(String name, String responsiblePerson, String description, MeetingCategory category,
 			MeetingType type, List<Attendee> attendees, LocalDate startDate, LocalDate endDate) {
-		super();
 		this.name = name;
 		this.responsiblePerson = responsiblePerson;
 		this.description = description;
