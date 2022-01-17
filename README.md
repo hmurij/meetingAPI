@@ -3,11 +3,15 @@
 
 The API caller is able to use these operations on API:
 
-- Save task          - POST   - /api/tasks
-- Update task        - PUT    - /api/tasks
-- Delete task by id  - DELETE - /api/tasks/{id}
-- Get all tasks      - GET    - /api/tasks
-- Get task by id     - GET    - /api/tasks/{id}
+- Get all meetings           - GET   - /api/meetings
+- Get meeting by name        - GET   - /meetings/search/findByName?name=value   
+- Get meeting by description - GET   - /meetings/search/findByDescription?description=value
+- Get meeting by resposnbile person - GET - /meetings/search/findByResponsiblePerson?person=value
+- 
+- Get task by id             - GET    - /api/tasks/{id}
+- Save task                  - POST   - /api/meetings
+- Update task                - PUT    - /api/tasks
+- Delete task by id          - DELETE - /api/tasks/{id}
 
 Link to [Postman test data samples](https://www.postman.com/avionics-physicist-21440496/workspace/rest-api/collection/18662089-a1f790cc-fe78-4f74-ba8c-60959fbee1ed)
 
