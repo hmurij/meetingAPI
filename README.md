@@ -15,7 +15,7 @@ The API caller is able to use these operations on API:
 - Save new meeting - POST - /meetings
 - Add new attendee - PUT - /meetings?meetingName=value&attendee=value&time=hh:mm
 - Delete meeting - DELETE - /meetings?responsiblePerson=value&meetingName=value
-- Delete meeting - DELETE - /attendees?meetingName=value&attendee=value
+- Remove attendee - DELETE - /attendees?meetingName=value&attendee=value
 
 Link to [Postman test data samples](https://www.postman.com/avionics-physicist-21440496/workspace/rest-api/collection/18662089-a1f790cc-fe78-4f74-ba8c-60959fbee1ed)
 
