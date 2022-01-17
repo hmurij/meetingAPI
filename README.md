@@ -5,13 +5,17 @@ The API caller is able to use these operations on API:
 
 - Get all meetings           - GET   - /api/meetings
 - Get meeting by name        - GET   - /meetings/search/findByName?name=value   
-- Get meeting by description - GET   - /meetings/search/findByDescription?description=value
-- Get meeting by resposnbile person - GET - /meetings/search/findByResponsiblePerson?person=value
-- 
-- Get task by id             - GET    - /api/tasks/{id}
-- Save task                  - POST   - /api/meetings
-- Update task                - PUT    - /api/tasks
-- Delete task by id          - DELETE - /api/tasks/{id}
+- Get meetings by description - GET   - /meetings/search/findByDescription?description=value
+- Get meetings by responsible person - GET - /meetings/search/findByResponsiblePerson?person=value
+- Get meetings by category - GET - /meetings/search/findByCategory?category=value
+- Get meetings by type - GET - /meetings/search/findByType?type=value
+- Get meetings starting from date - GET - /meetings/search/findStartingFromDate?date=yyyy-mm-dd
+- Get meetings by date range - GET - /meetings/search/findByDateRange?yyyy-mm-dd=value&end=yyyy-mm-dd
+- Get meetings by attendees number - GET - /meetings/search/findByMinAttendees?number=value
+- Save new meeting - POST - /meetings
+- Add new attendee - PUT - /meetings?meetingName=value&attendee=value&time=hh:mm
+- Delete meeting - DELETE - /meetings?responsiblePerson=value&meetingName=value
+- Delete meeting - DELETE - /attendees?meetingName=value&attendee=value
 
 Link to [Postman test data samples](https://www.postman.com/avionics-physicist-21440496/workspace/rest-api/collection/18662089-a1f790cc-fe78-4f74-ba8c-60959fbee1ed)
 
