@@ -10,7 +10,7 @@ The API caller is able to use these operations on API:
 - Get meetings by category - GET - /meetings/search/findByCategory?category=value
 - Get meetings by type - GET - /meetings/search/findByType?type=value
 - Get meetings starting from date - GET - /meetings/search/findStartingFromDate?date=yyyy-mm-dd
-- Get meetings by date range - GET - /meetings/search/findByDateRange?start=yyyy-mm-dd=value&end=yyyy-mm-dd
+- Get meetings by date range - GET - /meetings/search/findByDateRange?start=yyyy-mm-dd&end=yyyy-mm-dd
 - Get meetings by attendees number - GET - /meetings/search/findByMinAttendees?number=value
 - Save new meeting - POST - /meetings
 - Add new attendee - PUT - /meetings?meetingName=value&attendee=value&time=hh:mm
